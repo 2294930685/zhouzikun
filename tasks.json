@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+		{
+			"label": "GO: go build 编译",
+			"command": "C:\\Program Files\\Go\\bin\\go.exe",
+			"args": [
+                "build",
+				"${file}",
+			],
+			"group": "build",
+			"detail": "command: \"C:\\Program Files\\Go\\bin\\go.exe build\""
+		},
+		{
+			"label": "GO: go run 执行",
+			"command": "C:\\Program Files\\Go\\bin\\go.exe",
+			"args": [
+                "run",
+				"${file}",
+			],
+			"group": "test",
+			"detail": "command: \"C:\\Program Files\\Go\\bin\\go.exe run\""
+		}
+    ]
+}
+
