@@ -1,2 +1,2 @@
 var test = "zhouzikun";
-console.log("zhouzikun",test);
+console.log("周子昆",test);
